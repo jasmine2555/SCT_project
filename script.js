@@ -6,8 +6,8 @@ function renderQuestion() {
     const answersContainer = document.getElementById('answers');
     const nextButton = document.getElementById('next-btn'); // Reference to the Next button
 
-    questionContainer.innerHTML = ''; // Clear old question
-    answersContainer.innerHTML = ''; // Clear old answers
+    questionContainer.innerHTML = '';
+    answersContainer.innerHTML = '';
 
     // Hide the Next button 
     nextButton.style.display = 'none'; 
