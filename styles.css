@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a simple background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('minecraft.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container for the game */
+#game-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling the game title */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Gold color matching the Minecraft theme */
+}
+
+/* Question styling */
+#question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Answer buttons */
+#answers button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#answers button:hover {
+    background-color: #1558b0;
+}
+
+/* Next button */
+#next-btn {
+    background-color: #34a853;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#next-btn:hover {
+    background-color: #2b7e4a;
+}
